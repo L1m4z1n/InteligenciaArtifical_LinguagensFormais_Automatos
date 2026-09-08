@@ -1,0 +1,118 @@
+1) Considere o conjunto Σ = a, b, c. Responda:
+a) Quantos símbolos existem no alfabeto? 3
+b) Quais são os símbolos? a, b e o c.
+c) O símbolo a pertence ao alfabeto? sim
+d) O símbolo d pertence ao alfabeto? não
+e) Escreva uma palavra formada por símbolos desse alfabeto.
+baba, acaba, babaca...
+
+2) Classifique no conjunto Σ = 0, 1 cada sequência como palavra válida ou não válida:
+0101: válida
+00110: válida
+012:	não válida, o valor 2 não está no conjunto.
+111: válida
+10a: não válida, o elemento 'a' não está no conjunto.		
+
+3) Considere o conjunto Σ = 0, 1.  Determine se as afirmações são verdadeiras ou falsas:
+a. 0 ∈ Σ VERDADEIRA
+b. 1 ∈ Σ VERDADEIRA
+c. 01 ∈ Σ FALSO
+d. 01 ∈ Σ* VERDADEIRA
+e. 2 ∈ Σ FALSO
+f. 101 ∈ Σ* VERDADEIRA
+
+4) L = 0, 01, 011, 0111
+Determine se cada palavra pertence à linguagem:
+0 ∈ L PERTENCE
+01 ∈ L PERTENCE
+0111 ∈ L PERTENCE
+10 ∈ L NÃO PERTENCE
+111 ∈ L NÃO PERTENCE
+011 ∈ L PERTENCE
+
+5) L = b elevado a n | n >= 1
+a) Escreva as cinco primeiras palavras. 
+b, bb, bbb, bbbb, bbbbb.
+b) Explique o significado de b elevado a n. 
+é acrescentado um b a cada potência
+c) A palavra bbbbbb pertence à linguagem?
+sim
+d) A palavra vazia ( ε ) pertence à linguagem?
+não, n deve ser maior ou igual a 1, ou seja, no mínimo b.
+
+6) 
+a) Explique, com suas próprias palavras, a diferença entre conjunto vazio e palavra vazia:
+o conjunto vazio não possui elemento algum, enquanto a palavra vazia possui um elemento sem valor
+b) Qual delas possui uma palavra?
+o épsilon
+c) Qual delas não possui nenhuma palavra?
+o conjunto vazio
+d) Qual é o comprimento da palavra ε?
+zero
+
+7) Considere : G= (S,A,0,1,P,S)
+    com: P = S -> 0A, A  -> 1
+Identifique:
+
+a)O conjunto de variáveis.
+ -   V = A,S
+b) O conjunto de terminais.
+-  T = 0,1 
+c) O conjunto de produções.
+ - P = S ->0A , A -> 1
+d) O símbolo inicial.
+ - S
+e) Qual palavra pode ser gerada por essa gramática?
+S, S-> 0A, S ⇒0A, A->1, 0A ⇒ 01, 01
+
+8) Considere S -> 0S
+
+Começando com S:
+
+a) Aplique a regra uma vez:
+S -> 0S
+b)Aplique a regra duas vezes:
+.....
+c)Aplique a regra três vezes:
+S ⇒0S ⇒00S ⇒000S
+d) Escreva a sequencia completa de derivação:
+a sequencia não está finalizada
+
+9) 
+
+Nao e possivel derivar "aaab" nessa gramatica.
+
+DERIVACAO:
+S
+-> aSS
+-> aaSSS
+-> aabSS
+-> aabbS
+-> aabbb
+
+10)
+
+1. "1"
+   -> GERAVEL
+   Derivacao: S -> 1
+
+2. "01"
+   -> NAO GERAVEL
+   (zeros=1, uns=1; precisaria uns=zeros+1=2, so tem 1)
+
+3. "001"
+   -> NAO GERAVEL
+   (zeros=2, uns=1; precisaria uns=3, so tem 1)
+
+4. "0001"
+   -> NAO GERAVEL
+   (zeros=3, uns=1; precisaria uns=4, so tem 1)
+
+5. "101"
+   -> NAO GERAVEL
+   (comeca com "1" mas tem tamanho 3; S->1 so gera
+   palavra de tamanho 1)
+
+6. "1001"
+   -> NAO GERAVEL
+   (mesmo motivo: comeca com "1" e tem tamanho maior que 1)
