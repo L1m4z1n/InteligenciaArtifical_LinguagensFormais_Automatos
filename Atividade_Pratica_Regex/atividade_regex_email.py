@@ -1,3 +1,10 @@
+# Atividade Prática - Expressões Regulares
+# Disciplina: Linguagens Formais e Autômatos
+# Aluno: Gabriel Lima Almeida - 38180812
+# Objetivo: validar endereços de e-mail utilizando Regex
+
+import re
+
 import re
 
 padrao_email = r"[A-Za-z0-9_+-]+(?:\.[A-Za-z0-9_+-]+)*@(?:[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?\.)+[A-Za-z]{2,}"
