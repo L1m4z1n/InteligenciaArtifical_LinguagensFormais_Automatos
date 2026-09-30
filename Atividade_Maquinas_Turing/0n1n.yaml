@@ -1,0 +1,17 @@
+input: '0011'
+blank: ' '
+start state: q0
+table:
+  q0:
+    0: {write: X, R: q1}
+    Y: {R: q3}
+  q1:
+    [0, Y]: R
+    1: {write: Y, L: q2}
+  q2:
+    [0, Y]: L
+    X: {R: q0}
+  q3:
+    Y: R
+    ' ': {R: accept}
+  accept:
