@@ -44,7 +44,7 @@ Esse resultado ainda não comprova o desempenho em eventos reais.
 
 - [Notebook completo](A1_Sistema_Especialista_Instituto_Noah.ipynb)
 - [Dataset simulado](sessoes_simuladas_noah.csv)
-- [Apresentação em PowerPoint](Instituto Noah _ Assistente de divulgação _ A1.pptx)
+- [Apresentação em PowerPoint](Instituto Noah_Assistente de divulgação_A1.pptx)
 - [Apresentação em PDF](Apresentacao_Instituto_Noah.pdf)
 
 ## Demonstração
